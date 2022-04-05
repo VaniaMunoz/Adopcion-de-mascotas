@@ -1,12 +1,10 @@
-</body>
-</html>
 <html lang="en">
 <head>
 <title>CSS Website Layout</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-*   body {
+body {
   background-color: rgb(255, 255, 255);
 }
 
@@ -18,10 +16,12 @@ h1 {
 }
 
 .p1 {
-    text-align: center;
+    text-align: Left;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
+  
+    text-indent: 10px;
 }
 h2 {
   font-family: verdana;
@@ -33,7 +33,7 @@ h2 {
 }
 .p2 {
     font-size: 20px;
-    text-align:center;
+    text-align:left;
     color: black;
     text-indent: 10px;
   box-sizing: border-box;
@@ -43,7 +43,7 @@ h2 {
     font-size: 20px;
     text-align:left;
     color: black;
-    text-indent: 30px;
+    text-indent: 10px;
   box-sizing: border-box;
   font-family:sans-serif;
 }
@@ -51,7 +51,7 @@ h2 {
     font-size: 20px;
     text-align:left;
     color: black;
-    text-indent: 30px;
+    text-indent: 10px;
   box-sizing: border-box;
   font-family:sans-serif;
 }
@@ -72,6 +72,13 @@ a.one:hover {color:#ffcc00;}
 a.two:link {color:#ff0000;}
 a.two:visited {color:#0000ff;}
 a.two:hover {font: size 150%;}
+
+/* Style the header */
+.header {
+
+  padding: 20px;
+  text-align: center;
+}
 
 /* Style the top navigation bar */
 .topnav {
@@ -98,31 +105,22 @@ a.two:hover {font: size 150%;}
 <body>
 
 <div class="header">
-  <h1>Adopcion de mascotas</h1>
-  <p class="p1">Encuentra el amor incondicional de un nuevo mejor amigo ¡adopta!</p>
+  <h1>Historias </h1>
 </div>
-
 <div class="topnav">
-  <a href="index.html">Inicio</a>
-  <a href="perros.html">Perros</a>
-  <a href="gatos.html">Gatos</a> 
-</div>
-
-
-<p class="p2">¡Conoce las historias de estas mascotas y encuentra a tu nuevo mejor amigo!</p>
-<h2>Nuestras sesiones de ayuda:</h2>
-
-
+    <a href="index.html">Inicio</a>
+    <a href="perros.html">Perros</a>
+    <a href="gatos.html">Gatos</a> 
+  </div>
 <div class="gallery">
-    <a target="_blank" href="P1.png">
-      <img src="P.png" alt="Cinque Terre" width="300" height="200">
-    </a>
-    <p><b><a class="five" href="perros.html" target="_blank">Perros</a></b></p>
-    <div class="gallery">
-        <a target="_blank" href="Gatos.jpg">
-          <img src="Gatos.jpg" alt="Northern Lights" width="300" height="200">
-          <p><b><a class="five" href="gatos.html" target="_blank">Gatos</a></b></p>
-
+ 
+ <p class="p1"></p>
+ <p class="p2">  </p>
+ <p class="p3"></p>
+ <h2 class="p4"></h2>
+ <p class="p4"> </p>
+<div>
+  <p></p>
 </div>
 </body>
 </html>
